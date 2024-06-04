@@ -1,0 +1,43 @@
+{
+  "name": "order_food",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hailongdang1027/datn_order_BE_nodejs.git"
+  },
+  "keywords": [
+    "graduate",
+    "BE"
+  ],
+  "author": "Long",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hailongdang1027/datn_order_BE_nodejs/issues"
+  },
+  "homepage": "https://github.com/hailongdang1027/datn_order_BE_nodejs#readme",
+  "dependencies": {
+    "async": "^3.2.5",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "firebase": "^10.11.1",
+    "firebase-admin": "^12.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.4",
+    "multer": "*",
+    "nodemon": "^3.1.0",
+    "stripe": "^15.3.0",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "chai-http": "^4.4.0",
+    "mocha": "^10.4.0"
+  }
+}
